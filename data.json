@@ -1,0 +1,214 @@
+{"datas":[
+  {
+    "id": "user_001",
+    "username": "raghuvaran_345",
+    "fullName": "SURESH ◘",
+    "bio": "Chasing sunsets 🌅 | Travel & photography",
+    "profilePic": "http://localhost:3000/img/user001.jpg",
+    "followers": 1200,
+    "following": 350,
+    "posts": 
+      {
+        "id": "post_001",
+        "imageUrl": "http://localhost:3000/img/post1.jpeg",
+        "caption": "Black Dodge Charger 🚀",
+        "likes":"5M",
+        "comments": [
+          { "user": "wanderlust_girl", "text": "Stunning view!" },
+          { "user": "rahul_travels", "text": "Love this spot!" }
+        ],
+        "timestamp": "2025-09-28T17:45:00Z"
+      }
+    
+  },
+  {
+    "id": "user_002",
+    "username": "code_craze",
+    "fullName": "Sneha Raj",
+    "bio": "Frontend dev 💻 | ReactJS lover",
+    "profilePic": "http://localhost:3000/img/user002.jpg",
+    "followers": 980,
+    "following": 420,
+    "posts": 
+      {
+        "id": "post_002",
+        "imageUrl": "http://localhost:3000/img/post2.png",
+        "caption": "Beautiful☻ Nature Pic ♥ 🌞",
+        "likes": 210,
+        "comments": [
+          { "user": "techie_tom", "text": "Clean and minimal!" },
+          { "user": "ui_queen", "text": "Love the lighting!" }
+        ],
+        "timestamp": "2025-09-30T10:30:00Z"
+      }
+    
+  },
+  {
+    "id": "user_003",
+    "username": "dream_lover07",
+    "fullName": "Akash",
+    "bio": "Love 💻 | ReactJS lover",
+    "profilePic": "http://localhost:3000/img/user003.jpg",
+    "followers": 980,
+    "following": 420,
+    "posts": 
+      {
+        "id": "post_003",
+        "imageUrl": "http://localhost:3000/img/post3.jpeg",
+        "caption": "My Dream Car Ford Mustang 1969...",
+        "likes": "12.8k",
+        "comments": [
+          { "user": "techie_tom", "text": "Clean and minimal!" },
+          { "user": "ui_queen", "text": "Love the lighting!" }
+        ],
+        "timestamp": "2025-09-30T10:30:00Z"
+      }
+    
+  },
+  {
+    "id": "user_004",
+    "username": "nature_rasigan_",
+    "fullName": "Akash",
+    "bio": "Love 💻 | ReactJS lover",
+    "profilePic": "http://localhost:3000/img/user004.jpg",
+    "followers": 980,
+    "following": 420,
+    "posts": 
+      {
+        "id": "post_004",
+        "imageUrl": "http://localhost:3000/img/post4.jpg",
+        "caption": "Nature Sunset Looking awasome...!",
+        "likes": "1M",
+        "comments": [
+          { "user": "techie_tom", "text": "Clean and minimal!" },
+          { "user": "ui_queen", "text": "Love the lighting!" }
+        ],
+        "timestamp": "2025-09-30T10:30:00Z"
+      }
+    
+  },
+  {
+    "id": "user_005",
+    "username": "car_lover_",
+    "fullName": "Akash",
+    "bio": "Love 💻 | ReactJS lover",
+    "profilePic": "http://localhost:3000/img/user005.jpg",
+    "followers": 980,
+    "following": 420,
+    "posts": 
+      {
+        "id": "post_005",
+        "imageUrl": "http://localhost:3000/img/post5.jpeg",
+        "caption": "Red Ford Mustang 1969...",
+        "likes": "1.2k",
+        "comments": [
+          { "user": "techie_tom", "text": "Clean and minimal!" },
+          { "user": "ui_queen", "text": "Love the lighting!" }
+        ],
+        "timestamp": "2025-09-30T10:30:00Z"
+      }
+    
+  },
+  {
+    "id": "user_006",
+    "username": "tony_stark_001",
+    "fullName": "Akash",
+    "bio": "Love 💻 | ReactJS lover",
+    "profilePic": "http://localhost:3000/img/user003.jpg",
+    "followers": 980,
+    "following": 420,
+    "posts": 
+      {
+        "id": "post_006",
+        "imageUrl": "http://localhost:3000/img/post6.jpg",
+        "caption": "Avenger Team captain America",
+        "likes": "516k",
+        "comments": [
+          { "user": "techie_tom", "text": "Clean and minimal!" },
+          { "user": "ui_queen", "text": "Love the lighting!" }
+        ],
+        "timestamp": "2025-09-30T10:30:00Z"
+      }
+    
+  }
+],
+"suggestion":[
+  {
+    "id": "user_002",
+    "username": "code_craze",
+    "profilePic": "http://localhost:3000/img/user002.jpg"
+  },
+  {
+     "id": "user_003",
+    "username": "dream_lover07",
+    "profilePic": "http://localhost:3000/img/user003.jpg"
+
+  },
+  {
+    "id": "user_004",
+    "username": "nature_rasigan_",
+    "profilePic": "http://localhost:3000/img/user004.jpg"
+  },
+  {
+    "id": "user_005",
+    "username": "car_lover_",
+    "profilePic": "http://localhost:3000/img/user005.jpg"
+  },
+  {
+    "id": "user_006",
+    "username": "tony_stark_001",
+    "profilePic": "http://localhost:3000/img/user006.jpg"
+  }
+],
+"profile":[
+  {
+    "id": "user_001",
+    "username": "raghuvaran_345",
+    "fullName": "SURESH ◘",
+    "profilePic": "http://localhost:3000/img/user001.jpg",
+    "followers": 1200,
+    "following": 350,
+    "bio": "Chasing sunsets 🌅 | Travel & photography | Frontend dev 💻 | ReactJS lover",
+    "posts": 1
+  }
+],
+"story":[
+  {
+    "id": "1",
+    "username": "raghuvaran_345",
+    "profilePic": "http://localhost:3000/img/user001.jpg",
+    "storyPic": "http://localhost:3000/img/post1.jpeg"
+  },
+  {
+    "id": "2",
+    "username": "code_craze",
+    "profilePic": "http://localhost:3000/img/user002.jpg",
+    "storyPic": "http://localhost:3000/img/post2.png"
+  },
+  {
+     "id": "3",
+    "username": "dream_lover07",
+    "profilePic": "http://localhost:3000/img/user003.jpg",
+    "storyPic": "http://localhost:3000/img/post3.jpeg"
+
+  },
+  {
+    "id": "4",
+    "username": "nature_rasigan_",
+    "profilePic": "http://localhost:3000/img/user004.jpg",
+    "storyPic": "http://localhost:3000/img/post4.jpg"
+  },
+  {
+    "id": "5",
+    "username": "car_lover_",
+    "profilePic": "http://localhost:3000/img/user005.jpg",
+    "storyPic": "http://localhost:3000/img/post5.jpeg"
+  },
+  {
+    "id": "6",
+    "username": "tony_stark_001",
+    "profilePic": "http://localhost:3000/img/user006.jpg",
+    "storyPic": "http://localhost:3000/img/post6.jpg"
+  }
+]
+}
