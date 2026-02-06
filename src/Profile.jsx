@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 
 function Profile() {
-    const [profile]=useFetch('http://localhost:3000/profile');
+    const [profile]=useFetch('/data.json');
     const [setting, setSetting] =useState(false);
     const [highlight, setHighlight] =useState(false);
 

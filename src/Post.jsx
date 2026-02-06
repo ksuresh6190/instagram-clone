@@ -2,7 +2,7 @@ import useFetch from "./useFetch";
 
 function Post() {
  
-  const [post] = useFetch('http://localhost:3000/datas');
+  const [post] = useFetch('/data.json');
 
   return (
     <div>

@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 function ViewStory() {
   const {id, tot} = useParams();
-  const [story]=useFetch(`http://localhost:3000/story/${id}`);
+  const [story]=useFetch(`/data.json/story/${id}`);
   const navigate = useNavigate()
   if (id > tot || id <=0 ){
     navigate('/')

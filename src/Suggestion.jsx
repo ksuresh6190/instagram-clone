@@ -1,8 +1,8 @@
 import useFetch from './useFetch'
 
 function suggestion() {
-  const [suggestion]=useFetch('http://localhost:3000/suggestion');
-  const [profile]= useFetch('http://localhost:3000/profile');
+  const [suggestion]=useFetch('/public/data.json');
+  const [profile]= useFetch('/public/data.json');
 
   return (
     <div className=' d-flex flex-column gap-4'>

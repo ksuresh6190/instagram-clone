@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Story() {
 
-    const [story] = useFetch('http://localhost:3000/story');
+    const [story] = useFetch('\public\data.json');
     const navigate = useNavigate();
     let tot= story.length;
   return (
@@ -21,6 +21,6 @@ function Story() {
         </div>
     </div>
   )
-}
+}47
 
 export default Story
